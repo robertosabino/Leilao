@@ -1,0 +1,12 @@
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\bin\Debug\netcoreapp2.0\AspCore_Roles.deps.json
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\bin\Debug\netcoreapp2.0\AspCore_Roles.runtimeconfig.json
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\bin\Debug\netcoreapp2.0\AspCore_Roles.runtimeconfig.dev.json
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\bin\Debug\netcoreapp2.0\AspCore_Roles.dll
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\bin\Debug\netcoreapp2.0\AspCore_Roles.pdb
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\obj\Debug\netcoreapp2.0\AspCore_Roles.csproj.CoreCompileInputs.cache
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\obj\Debug\netcoreapp2.0\AspCore_Roles.AssemblyInfoInputs.cache
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\obj\Debug\netcoreapp2.0\AspCore_Roles.AssemblyInfo.cs
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\obj\Debug\netcoreapp2.0\AspCore_Roles.dll
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\obj\Debug\netcoreapp2.0\AspCore_Roles.pdb
+C:\Backup\Pessoais\Projetos\AspCore_Roles\AspCore_Roles\obj\Debug\netcoreapp2.0\AspCore_Roles.csprojAssemblyReference.cache
