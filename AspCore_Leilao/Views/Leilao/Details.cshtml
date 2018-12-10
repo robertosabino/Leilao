@@ -1,0 +1,70 @@
+﻿@model AspCore_Roles.Models.Leilao
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Leilao</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ValorInicial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ValorInicial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Usado)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Usado)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataAbertura)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataAbertura)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DataFinalizacao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DataFinalizacao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Lances)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Valor</th>
+                    <th>Usuário</th>
+                </tr>
+                @foreach (var item in Model.Lances)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Valor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UserId)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.LeilaoID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
